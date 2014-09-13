@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alarmclock.MainActivity"
+    tools:ignore="MergeRootFrame" > 
+<LinearLayout 
+    android:id="@+id/layoutImage"
+    android:layout_width="fill_parent"   
+    android:layout_height="fill_parent"   
+    android:orientation="vertical" >   
+   
+    <!-- <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="112dp"
+        android:background="@android:drawable/edit_text" > -->
+   
+        <TextView   
+            android:id="@+id/promt"   
+            android:layout_width="fill_parent"   
+            android:layout_height="wrap_content"   
+            android:scrollbars="vertical"   
+            android:singleLine="false"   
+            android:text="Info" />   
+    <!-- </ScrollView> -->
+
+    <Button
+        android:id="@+id/myButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small" />
+
+    <Button
+        android:id="@+id/myButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Big" />
+
+    
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TakePhoto" />
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+   
+</LinearLayout> 
+</FrameLayout>
